@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <title>张鑫和宋楠的婚礼请帖</title>
+  <style>
+    body{
+      margin: 0;
+      font-size: 0;
+      line-height: 1.231;
+      background: url(bg.jpg) no-repeat 50% 0;
+      background-size: contain;
+      padding-top: 100px;
+      color: #3f4549;
+    }
+    h1{
+      color: #f55567;
+      text-align: center;
+      font-family: georgia;
+      font-weight: normal;
+    }
+    a{
+      color: #3F4549;
+    }
+    header, section{
+      padding: 0 10px;
+      font-size: 14px;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    header h1{
+      font-style: italic;
+      font-weight: bold;
+      margin: 0.2em 0 1.2em;
+      font-size: 40px;
+      line-height: 0.3em;
+    }
+    header h1 i{
+      font-size: 0.4em;
+      margin: 1em;
+      color: #ddd;
+      display: block;
+    }
+    .heart{
+      margin-right: .3em;
+    }
+    section{
+      margin-bottom: 3em;
+    }
+    section h1{
+      font-size: 16px;
+    }
+    ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .summary li{
+      padding-left: 3em;
+    }
+    .summary .key{
+      margin-left: -3em;
+      width: 3em;
+      display: inline-block;
+      *display: inline;
+      *zoom: 1;
+      text-align: right;
+    }
+    .summary img{
+      vertical-align: top;
+      width: 14px;
+    }
+    .comment{
+      padding: 0 10px;
+      max-width: 620px;
+      margin: 20px auto 0;
+      background: none;
+    }
+    .bg{
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    window.onresize = function(){
+      document.body.style.paddingTop = (window.innerWidth || document.body.clientWidth) / 3 + 'px';
+    };
+    window.onresize();
+  </script>
+  <header>
+    <h1>SongNan<i>&</i>ZhangXin</h1>
+  </header>
+  <section class="welcome">
+    宋楠与张鑫将于9月19日在濮阳举行婚礼，真诚地邀请你与我们一同分享这份喜悦，期待你的到来。
+  </section>
+  <section class="summary">
+    <h1><i class="heart">&#9829;</i>婚礼信息</h1>
+    <ul>
+      <li><span class="key">新郎：</span><span class="value">宋楠</span></li>
+      <li><span class="key">新娘：</span><span class="value">张鑫</span></li>
+      <li><span class="key">时间：</span><span class="value">2014年9月19日 11点30</span></li>
+      <li><span class="key">地点：</span><span class="value">XX大酒店（<a class="map" href="http://j.map.baidu.com/">濮阳XX路<img src="map.png" alt=""></a>）</span></li>
+    </ul>
+  </section>
+  <img class="bg" src="wedding.jpg" alt="">
+</body>
+</html>
